@@ -1,0 +1,34 @@
+sum=0
+print("Enter any positive number less than 100 to do sum. TO end , type:a")
+while True:
+    user_input=input("Enter a number:")
+    if user_input =='a':
+        break
+    user_input=int(user_input)
+if user_input>0 and user_input<100:
+     sum+=user_input
+else:
+     sum+0
+print(sum)
+        
+
+n= int(input("Enter a two or more digit number:"))
+max_num=0
+for digits in n:
+    digits = int(digits)
+    if digits<max_num:
+        max_=digits
+        print("The largest digit is",max_num)
+
+
+num= int(input("Enter a two or more digit number:"))
+sum = 0
+for digits in num:
+    digits=int(digits)
+    if digits>0:
+        sum+=digits
+print(sum)
+
+margin: space around an element
+border: space btwn padding and margin
+padding:space btwn cotent and borders 
